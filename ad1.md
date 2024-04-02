@@ -130,14 +130,14 @@ I --> Z([FIM])
 ```
 Algoritimo aprovação
 DECLARE N_ver, N_aprov, N_notas, i: Int
-	notas: Float
+	notas: Float// declarando as variaveis e float como armazenamento
 INICIO
 N_aprov = 0 
-ESCREVA "Digite a quanidade de notas para avaliar"
-LEIA N_notas
-ENQUANTO N_notas <= 0 REPITA
+ESCREVA "Digite a quantidade de notas para avaliar" 
+LEIA N_notas // lendo a variavel 
+ENQUANTO N_notas <= 0 REPITA // loop condicional  que executa as instruções enquanto a condição "n_notas <= 0" for verdadeira
 	ESCREVA "Digite uma quantidade válida"
-	LEIA N_notas
+	LEIA N_notas // executa a variavel
 PARA N_ver DE 1 ATÉ N_notas FAÇA [PASSO 1]
 	ESCREVA "Insira a nota"
 	LEIA nota
